@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>242</width>
+    <height>169</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="confirmButton">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>110</y>
+     <width>91</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Подтвердить</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="programmButton">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>181</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Задачи на программирование</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="textLabel">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>371</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Выберите нужный вариант:</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="questionButton">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>80</y>
+     <width>181</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Задачи на системы счисления</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
