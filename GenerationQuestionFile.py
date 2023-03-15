@@ -4,11 +4,11 @@ import GenerationQuestionFunctions, TranslateFunctions
 
 def print_question(difficulty, in_types):
     #Генерация условия задачи
-    typ = GenerationFunctions.generation_type(in_types)
+    typ = GenerationQuestionFunctions.generation_type(in_types)
     t = types[typ]
     #Генерация 1 типа
     if typ == 1:
-        numbers = GenerationFunctions.generation_type_1(difficulty)
+        numbers = GenerationQuestionFunctions.generation_type_1(difficulty)
         answer = TranslateFunctions.translate_from_ten(numbers[0], numbers[2])
         if numbers[1] != 10:
             numbers[0] = TranslateFunctions.translate_from_ten(numbers[0], numbers[1])
@@ -16,7 +16,7 @@ def print_question(difficulty, in_types):
         return [t[0] + str(numbers[1]) + t[1] + str(numbers[2]) + t[2] + resoult, answer]
     #Генерация 2 типа
     elif typ == 2:
-        numbers = GenerationFunctions.generation_type_2(difficulty)
+        numbers = GenerationQuestionFunctions.generation_type_2(difficulty)
         line = ''
         resoult = ''
         for i in range(len(numbers)):
