@@ -15,3 +15,5 @@ def translate_to_ten(number, sistem):
         k += 1
     return res
 
+def h():
+    print('Hi')
