@@ -312,3 +312,5 @@ if __name__ == '__main__':
     hw = HelloWindow()
     hw.show()
     sys.exit(app.exec_())
+
+'fdfdfdfdfddddddddddddddddddddddddddddddddddddddddddd'
